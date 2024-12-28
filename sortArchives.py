@@ -30,3 +30,9 @@ Criar um caminho'''
 
 path = askd(title="Select A Folder")
 print(f"Path= {path}")
+
+'''Create an archives list
+Criar uma lista de arquivos'''
+
+archivesList = os.listdir(path)
+print(f"Archives List= {archivesList}")
