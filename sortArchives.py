@@ -43,4 +43,11 @@ Criar um dicionário de caminhos'''
 dictPaths = {
     "images" : [".png", ".jpg", ".jpeg", ".bmp"],
     "sheets" : [".xls", ".xlsx"],
+    "pdfs" : [".pdf"],
+    "csvs" : [".csv"],
+    "txts" : [".txt"],
+    "videos" : [".mp4", ".webm"],
+    "MSWordDocs" : [".doc", ".docx"],
+    "Presentations" : [".ppt", ".pptx"],
+    "webPages" : [".html"]  
 }
