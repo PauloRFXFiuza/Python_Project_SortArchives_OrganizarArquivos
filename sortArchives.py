@@ -23,4 +23,9 @@ It returns the full path of the selected directory as a string.
 O método askdirectory exibe uma caixa de diálogo que permite ao usuário selecionar um diretório (pasta) em seu 
 sistema de arquivos. Ele retorna o caminho completo do diretório escolhido como uma string.'''
 
-from tkinter.filedialog import askdirectory
+from tkinter.filedialog import askdirectory as askd
+
+'''Create a Path
+Criar um caminho'''
+
+path = askd(title="Select A Folder")
