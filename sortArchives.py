@@ -29,3 +29,4 @@ from tkinter.filedialog import askdirectory as askd
 Criar um caminho'''
 
 path = askd(title="Select A Folder")
+print(f"Path= {path}")
