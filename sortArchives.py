@@ -51,3 +51,24 @@ dictPaths = {
     "Presentations" : [".ppt", ".pptx"],
     "webPages" : [".html"]  
 }
+
+'''Sort Folders Procedure
+Procedimento de Organização em Pastas'''
+
+for archives in archivesList:
+
+    '''The os.path.splitext() method from the os.path module is used to separate a file's name from its extension. 
+    It returns a tuple containing two parts:
+    The file name without the extension.
+    The file extension (including the dot).
+
+    O método os.path.splitext() do módulo os.path é usado para separar o nome de um arquivo de sua extensão. 
+    Ele retorna uma tupla contendo duas partes:
+    O nome do arquivo sem a extensão.
+    A extensão do arquivo (incluindo o ponto).
+
+    Procedure to separate the file extension from the file name.
+    Procedimento para separar a extensão do nome do arquivo- Example (exemplo):
+    C:/Users/paulo/Documents/Workspaces/Python_Project_SortArchives_OrganizarArquivos/folderExample/1730997221366.jpg'''
+
+    name, extension = os.path.splitext(f"{path}/{archives}")
