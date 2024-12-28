@@ -36,3 +36,11 @@ Criar uma lista de arquivos'''
 
 archivesList = os.listdir(path)
 print(f"Archives List= {archivesList}")
+
+'''Create a dictionary of paths
+Criar um dicionário de caminhos'''
+
+dictPaths = {
+    "images" : [".png", ".jpg", ".jpeg", ".bmp"],
+    "sheets" : [".xls", ".xlsx"],
+}
